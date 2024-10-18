@@ -2,6 +2,7 @@ import React from 'react';
 import { Typography, Box, Grid } from '@mui/material';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import maroonBdsheet from "../../public/maroonBdsheet.jfif";
 
 const About = () => {
     return (
@@ -18,7 +19,7 @@ const About = () => {
                 <Grid container spacing={4} sx={{ alignItems: 'center' }}>
                     <Grid item xs={12} md={6}>
                         <img
-                            src="src/assets/maroon-bdsheet.jfif"
+                            src={maroonBdsheet}
                             alt="About Us"
                             style={{
                                 width: '100%',

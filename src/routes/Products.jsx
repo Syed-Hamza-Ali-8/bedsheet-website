@@ -2,88 +2,100 @@ import React, { useState } from 'react';
 import { Typography, Box, Grid, Button, Drawer, List, ListItem, ListItemText, ListItemAvatar, Avatar } from '@mui/material';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import lightBlueBdsheet from "../../public/lightBlueBdsheet.jfif";
+import yellowBdsheet from "../../public/yellowBdsheet.jfif";
+import orangeBdsheet from "../../public/orangeBdsheet.jfif";
+import lightOrangeBdsheet from "../../public/lightOrangeBdsheet.jfif";
+import maroonBdsheet from "../../public/maroonBdsheet.jfif";
+import grayBdsheet from "../../public/grayBdsheet.jfif";
+import yellowFlowryBdsheet from "../../public/yellowFlowryBdsheet.jfif";
+import darkBlueBdsheet from "../../public/darkBlueBdsheet.jfif";
+import peachBdsheet from "../../public/peachBdsheet.jfif";
+import redPurpleComboBdsheet from "../../public/redPurpleComboBdsheet.jfif";
+import colorfulBdsheet from "../../public/colorfulBdsheet.jfif";
+import whiteBrownComboBdsheet from "../../public/whiteBrownComboBdsheet.jfif";
 
 const products = [
     {
         id: 1,
-        image: "src/assets/light-blue-bdsheet.jfif",
+        image: lightBlueBdsheet,
         price: "$29.99",
         description: "Soft and comfortable bed sheet for a restful sleep.",
         name: 'Light-Blue',
     },
     {
         id: 2,
-        image: "src/assets/yellow-bdsheet.jfif",
+        image: yellowBdsheet,
         price: "$24.99",
         description: "Elegant design to enhance your bedroom decor.",
         name: 'Yellow',
     },
     {
         id: 3,
-        image: "src/assets/orange-bdsheet.jfif",
+        image: orangeBdsheet,
         price: "$27.99",
         description: "Luxury and softness combined for the perfect sleep.",
         name: 'Orange',
     },
     {
         id: 4,
-        image: "src/assets/light-orange-bdsheet.jfif",
+        image: lightOrangeBdsheet,
         price: "$32.99",
         description: "Breathable and durable fabric for long-lasting comfort.",
         name: 'Light-Orange',
     },
     {
         id: 5,
-        image: "src/assets/brown-bdsheet.jfif",
+        image: maroonBdsheet,
         price: "$32.99",
         description: "Vibrant designs that brighten your space and elevate your decor.",
         name: 'Brown',
     },
     {
         id: 6,
-        image: "src/assets/gray-bdsheet.jfif",
+        image: grayBdsheet,
         price: "$32.99",
         description: "Sustainable materials that ensure eco-friendly comfort and durability.",
         name: 'Gray',
     },
     {
         id: 7,
-        image: "src/assets/yellow-flowry-bdsheet.jfif",
+        image: yellowFlowryBdsheet,
         price: "$32.99",
         description: "Cool to the touch, perfect for a refreshing night's rest.",
         name: 'Yellow-Flowry',
     },
     {
         id: 8,
-        image: "src/assets/dark-blue-bdsheet.jfif",
+        image: darkBlueBdsheet,
         price: "$32.99",
         description: "Classic patterns that seamlessly blend with any bedroom theme.",
         name: 'Dark-Blue',
     },
     {
         id: 9,
-        image: "src/assets/peach-bdsheet.jfif",
+        image: peachBdsheet,
         price: "$32.99",
         description: "High-quality stitching that promises longevity and a perfect fit for your mattress.",
         name: 'Peach',
     },
     {
         id: 10,
-        image: "src/assets/red-purple-combo-bdsheet.jfif",
+        image: redPurpleComboBdsheet,
         price: "$32.99",
         description: "Soft and breathable fabric that promotes airflow for a cooler sleep experience.",
         name: 'Red-Purple',
     },
     {
         id: 11,
-        image: "src/assets/colorful-bdsheet.jfif",
+        image: colorfulBdsheet,
         price: "$32.99",
         description: "Timeless designs that add a touch of sophistication to your bedroom decor.",
         name: 'Colorful',
     },
     {
         id: 12,
-        image: "src/assets/white-brown-combo-bdsheet.jfif",
+        image: whiteBrownComboBdsheet,
         price: "$32.99",
         description: "Fade-resistant colors that maintain their vibrancy wash after wash.",
         name: 'White-Brown-Combo',
