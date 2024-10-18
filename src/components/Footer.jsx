@@ -56,7 +56,7 @@ const Footer = () => {
                         Home
                     </Link>
                     <Link
-                        href="about"
+                        href="/about"
                         sx={{
                             color: '#fff',
                             textDecoration: 'none',
@@ -68,7 +68,7 @@ const Footer = () => {
                         About Us
                     </Link>
                     <Link
-                        href="products"
+                        href="/products"
                         sx={{
                             color: '#fff',
                             textDecoration: 'none',
@@ -80,7 +80,7 @@ const Footer = () => {
                         Products
                     </Link>
                     <Link
-                        href="contact"
+                        href="/contact"
                         sx={{
                             color: '#fff',
                             textDecoration: 'none',
