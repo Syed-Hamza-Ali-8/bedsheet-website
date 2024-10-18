@@ -5,13 +5,17 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Cart from './Cart';
 import blackRedCombo from "../hot-collection-bdsheets/blackRedComboBdsheet.jpeg"
+import goldenBdsheet from "../hot-collection-bdsheets/goldenBdsheet.jpeg"
+import creamBrownBdsheet from "../hot-collection-bdsheets/creamBrownBdsheet.jfif"
+import darkPurpleBdsheet from "../hot-collection-bdsheets/darkPurpleBdsheet.jfif"
+import lightYellowBdsheet from "../hot-collection-bdsheets/lightYellowBdsheet.jfif"
 
 const hotBedsheetsCollection = [
     { id: 1, src: blackRedCombo, alt: 'Hot Bed Sheet 1', name: 'Black-Red' },
-    // { id: 2, src: , alt: 'Hot Bed Sheet 2', name: 'Golden' },
-    // { id: 3, src: creamBrownBdsheet, alt: 'Hot Bed Sheet 3', name: 'Cream-Brown' },
-    // { id: 4, src: darkPurpleBdsheet, alt: 'Hot Bed Sheet 4', name: 'Dark-Purple' },
-    // { id: 5, src: lightYellowBdsheet, alt: 'Hot Bed Sheet 5', name: 'Light-Yellow' },
+    { id: 2, src: goldenBdsheet, alt: 'Hot Bed Sheet 2', name: 'Golden' },
+    { id: 3, src: creamBrownBdsheet, alt: 'Hot Bed Sheet 3', name: 'Cream-Brown' },
+    { id: 4, src: darkPurpleBdsheet, alt: 'Hot Bed Sheet 4', name: 'Dark-Purple' },
+    { id: 5, src: lightYellowBdsheet, alt: 'Hot Bed Sheet 5', name: 'Light-Yellow' },
 ];
 
 const Home = () => {
